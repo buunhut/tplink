@@ -13,6 +13,7 @@ function resizeWindow(breakpoint) {
     opener.classList.remove("none");
     closer.classList.add("none");
     ul.classList.add("none");
+    // document.querySelector("body").style.height = "100vh";
 
   } else {
     // chưa chạm breakpoint
